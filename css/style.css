@@ -1,3 +1,43 @@
 body{
     background-color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.header_logo{
+font-size: 24px;
+color: #f9faf8;
+}
+    
+.header_links a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.header_2 h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    
+}
+.header_2 p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.card_container h1{
+font-size: 36px;
+color: #1f2937;
+}
+.dummy_text h1 p{
+    font-size: 36px;
+    font-family: light italic;
+    color: #1f2937
+}
+.blue_square h1{
+    font-size: 24px;
+    color: #e5e7eb;
+}
+.blue_square h1 p{
+font-size: 18px;
+color: #e5e7eb;
+}
+
+

@@ -1,16 +1,24 @@
 body{
-    background-color: #1f2937;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #1f2937;
+
 }
+
 .header_logo{
-font-size: 24px;
+font-size: 18px;
 color: #f9faf8;
 }
-    
+
 .header_links a{
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
 }
 .header_2 h1{
     font-size: 48px;
@@ -22,7 +30,7 @@ color: #f9faf8;
     font-size: 18px;
     color: #e5e7eb;
 }
-.card_container h1{
+.card_container h1{ 
 font-size: 36px;
 color: #1f2937;
 }
@@ -39,5 +47,100 @@ color: #1f2937;
 font-size: 18px;
 color: #e5e7eb;
 }
+ul{
+    padding: 0;
+    margin: 0;
 
+}
+.box2 h1{
+    margin: 0;
+}
+.box2 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.one{
+    flex: 1;
+     margin-right: 33px;
+    }
+.two{
+    flex: 1;
+    margin-right: 33px;
+    }
+.three{
+    flex: 1;
+    margin-right: 33px;
+    }
+.four {
+    flex: 1;
+    margin-right: 33px;
+}
 
+/* from here up is only font related stuff */
+
+.header1{
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: #1f2937;
+}
+/* elements of the fist header */
+.header_logo{
+    display: flex;
+}
+.header_links{
+    display:flex;
+}
+/* elements of the 2 directions sections */
+
+.text_section1{
+    display: flex;
+    flex:1;
+    justify-content: right;
+    align-items: center;
+    padding-left: 100px;
+   border: 2px;
+   color: white;
+}
+.button{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.photo{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    height: 250px;
+    width: auto;
+    display: flex;
+   justify-items: end;
+    background-color: #1f2937;
+}
+.box2{
+    margin: 0;
+}
+/* from this point is the cards section */
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    background-color: #ffffff; 
+    gap: 30px;
+}
+.title_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.cardn{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

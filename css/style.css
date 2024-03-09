@@ -89,6 +89,18 @@ ul{
 .dummy_text h1{
     text-align: justify;
 }
+.one p{
+text-align: center;
+}
+.two p{
+    text-align: center;
+    }
+.three p{
+    text-align: center;
+    }
+.four p{
+    text-align: center;
+    }
 
 /* from here up is only font related stuff */
 
@@ -183,7 +195,7 @@ ul{
     background-color: #ffffff;
 }
 .button{
-    display: flex;
+    display: block;
     margin: 0;
     padding: 5px;
 }

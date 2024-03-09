@@ -34,19 +34,30 @@ li{
 font-size: 36px;
 color: #1f2937;
 }
-.dummy_text h1 p{
-    font-size: 36px;
+.dummy_text h1{
+    font-size: 24px;
     font-family: light italic;
     color: #1f2937
 }
-.blue_square h1{
-    font-size: 24px;
+.blue_square{
+    background-color:#3882f6;
+    font-size: 18px;
     color: #e5e7eb;
+    padding: 15px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
 }
-.blue_square h1 p{
+.blue_square h1 {
 font-size: 18px;
 color: #e5e7eb;
 }
+.blue_square p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0px;
+    }
 ul{
     padding: 0;
     margin: 0;
@@ -74,6 +85,9 @@ ul{
 .four {
     flex: 1;
     margin-right: 33px;
+}
+.dummy_text h1{
+    text-align: justify;
 }
 
 /* from here up is only font related stuff */
@@ -121,8 +135,9 @@ ul{
    justify-items: end;
     background-color: #1f2937;
 }
-.box2{
-    margin: 0;
+.box2 p{
+    text-align:start ;
+    text-indent: 15px;
 }
 /* from this point is the cards section */
 
@@ -143,4 +158,32 @@ ul{
     display: flex;
     align-items: center;
     justify-items: center;
+}
+.dummy_text{
+    background-color: #e5e7eb;
+    padding: 10px;
+}
+/* footer */
+.fooder{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 100%;
+    background-color: #1f2937;
+    margin-top: 0;
+    
+}
+.whitebox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.button{
+    display: flex;
+    margin: 0;
+    padding: 5px;
 }
